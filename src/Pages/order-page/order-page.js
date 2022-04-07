@@ -1,7 +1,7 @@
 import React from 'react';
 import { useSelector} from 'react-redux';
 import { OrderItem } from '../../components/order-item/order-item';
-import { CalcTotalPrice, enumerate } from '../../components/util.js';
+import { CalcTotalPrice } from '../../components/util.js';
 import './order-page.css';
 
 export const OrderPage = () => {
