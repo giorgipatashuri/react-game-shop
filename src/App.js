@@ -20,7 +20,7 @@ function App() {
           <Routes>
             <Route exact path="react-game-shop/order" element={<OrderPage />}/>
             <Route exact path="react-game-shop/app/:title" element={<GamePage />}/>
-            <Route exact path="react-game-shop/" element={<HomePage />}/>
+            <Route exact path="/" element={<HomePage />}/>
           </Routes>
       </div>
     </BrowserRouter>
