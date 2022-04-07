@@ -1,0 +1,24 @@
+.game-page__content {
+    display: flex;
+    color: white;
+}
+
+.game-page__left {
+    width: 70%;
+}
+
+.game-page__right {
+    width: 30%;
+}
+.game-page__right p{
+    color: white;
+}
+.game-page__buy-game {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+    color: white;
+}
+.game-page__title{
+    color: white;
+}
